@@ -1,0 +1,114 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.login-wrapper{
+  min-height:100vh;
+  background-color:rgba(0,0,0,.4);
+  font-family: 'Open Sans', sans-serif;
+  padding-top:40px;
+}
+.login-container{
+  max-width:400px;
+  margin:0 auto;
+  background-color:white;
+  text-align:center;
+  padding:50px 0;
+  box-shadow:0 0 20px rgba(0,0,0,.4);
+  border-radius:3px;
+}
+.g-signin2,#login-submit{
+  display:block;
+  width:50%;
+  margin: 5px auto;
+  text-decoration:none;
+  padding:10px 15px;
+  color:#fff;
+  border-radius:3px;
+  margin-bottom:10px;
+  transition:all .3s ease-in-out;
+}
+.social-login:hover{
+    box-shadow:0 10px 15px -5px rgba(0,0,0,0.4);
+}
+a.fb-login{
+  background-color:#3B5998;
+}
+a.google-login{
+  background-color:#db4437;
+}
+.login-form{
+  max-width:250px;
+  margin:0 auto;
+  text-align:left;
+}
+
+p.login-seperator{
+  margin:25px;
+}
+div.group{
+  margin-top:15px;
+}
+label{
+  display:block;
+  margin-bottom:5px;
+  text
+}
+div.login-group input{
+  width:100%;
+  padding:10px 4px;
+  outline:none;
+}
+a.login-forget-link{
+  color:black;
+  display:block;
+  margin:10px 0;
+}
+
+#login-submit{
+  padding:15px 35px;
+  outline:none;
+  border:None;
+  background-color:#20c198;
+  color:white;
+  transition:all .3s ease-in-out;
+}
+#login-submit:hover{
+  cursor:pointer;
+  box-shadow:0 10px 15px -5px rgba(0,0,0,0.4);
+}
+
+/* containers */
+
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
